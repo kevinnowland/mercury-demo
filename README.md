@@ -37,9 +37,10 @@ Step 0 is to create a heroku account and install the CLI.
 1. Create a fork of this repository for yourself. Then clone and
 enter into it the folder.
 1. Run `heroku login` 
-2. Run `heroku create`
-3. Confirm app runs locally with `heroku local web` and browsing to `http://127.0.0.1:8000`.
+2. Run `heroku create APPNAME` where you fill in whatever `APPNAME` you want.
+3. Confirm app runs locally with `heroku local web` and browsing to `http://12o.0.0.1:8000`.
 4. run `git push heroku main`
 5. Start the app with`heroku ps:scale web=1` and confirm the
 app is working by running `heroku open` to open the app in a browser.
 5. Shut down the running app with `heroku ps:scale web=0`
+6. Destroy the app with `heroku apps:destroy APPNAME --confrim APPNAME`.
