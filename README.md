@@ -40,6 +40,7 @@ enter into it the folder.
 1. Run `heroku login` 
 2. Run `heroku create APPNAME` where you fill in whatever `APPNAME` you want.
 2. Set heroku environment variables:
+
     ```bash
     heroku config:set SERVE_STATIC=True
     heroku config:set ALLOWED_HOSTS=APPNAME.herokuapp.com
