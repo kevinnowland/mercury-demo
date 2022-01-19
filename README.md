@@ -35,6 +35,9 @@ can run more than one notebook.
 We are following the instructions from [this tutorial](https://mljar.com/blog/share-jupyter-notebook-as-web-app/)
 Step 0 is to create a heroku account and install the CLI.
 
+I found this to be rather unstable. I pushed a notebook that worked fine locally
+and it updated on the app but then just hung with the logs not telling me much.
+
 1. Clone this repository and `cd` into it.
 1. Run `heroku login` 
 2. Run `heroku create APPNAME` where you fill in whatever `APPNAME` you want.
