@@ -1,3 +1,4 @@
+gunicorn
 jupyter
 matplotlib
 mljar-mercury
