@@ -16,7 +16,7 @@ dashboarding.
 ## Running locally
 
 
-1. `git clone` this repository
+1. `git clone` this repository and `cd` into it.
 1. Install requirements in your virtual environment of choice (for me this meant
 running `python -m venv .venv; source .venv/bin/activate; pip install -r requirements.txt`).
 2. Confirm the notebook is working by running `jupyter notebook` and ensuring that all
@@ -35,8 +35,7 @@ can run more than one notebook.
 We are following the instructions from [this tutorial](https://mljar.com/blog/share-jupyter-notebook-as-web-app/)
 Step 0 is to create a heroku account and install the CLI.
 
-1. Create a fork of this repository for yourself. Then clone and
-enter into it the folder.
+1. Clone this repository and `cd` into it.
 1. Run `heroku login` 
 2. Run `heroku create APPNAME` where you fill in whatever `APPNAME` you want.
 2. Set heroku environment variables:
