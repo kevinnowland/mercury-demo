@@ -45,7 +45,6 @@ Step 0 is to create a heroku account and install the CLI.
     heroku config:set ALLOWED_HOSTS=APPNAME.herokuapp.com
     heroku config:set NOTEBOOKS=iris-test.ipynb
     ```
-3. Confirm app runs locally with `heroku local web` and browsing to `http://12o.0.0.1:8000`.
 4. run `git push heroku main`
 5. Start the app with`heroku ps:scale web=1` and confirm the
 app is working by running `heroku open` to open the app in a browser.
